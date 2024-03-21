@@ -10,15 +10,12 @@
   font-family: "Poppins", sans-serif;
   
 }
-ul{
-  
-}
-a{
 
-}
+
 .container{
   display: flex ;
 }
+
 .nav-item1{
   color: steelblue;
   font-size: 20px;

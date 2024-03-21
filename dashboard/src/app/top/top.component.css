@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
 .head {
     width: 100%;
     z-index : 1;
@@ -7,7 +9,7 @@
     border-radius: 0px;
     background-color: rgb(255, 255,  255);
     text-align: center;
-    color: rgb(22, 21, 21);
+    color:#ccc;;
     border: 1px solid;
     align-items: center;
     justify-content: space-between;
@@ -60,8 +62,66 @@
     text-align: center;
     align-items: center;
 }
-.bnt-voir{
+.title{
+  margin-left: -17%;
+  display: flex; 
+  align-items: center; 
+}
+.title .projet {
+  
+  margin-left: 10px;
+}
+
+.title1 {
   display: flex;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.title1 .fas {
+  margin-right: 10px; 
+}
+
+
+.ligne-ville{
+  
+  width: 432px;
+  margin: 10px;
+  height: 297px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+ 
+}
+.title2{
+    margin-left: -8%;
+    display: flex; 
+    align-items: center; 
+}
+.title2 .ligne-ville{
+  margin-left: 10px;
+}
+.btn2{
+  display: flex;
+  
+}
+
+
+.bn{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+i{
+    margin-left: 0px;
+  }
+
+.bnt-voir{
+    display: flex;
     align-items: center;
     width: 25%;
     min-width: fit-content;
@@ -100,7 +160,7 @@ i{
 }
 .card{
   display: flex;
-  width: 85%;
+  width: 265px;
   margin: 10px;
   height: 159px;
   background: #fff;
@@ -127,15 +187,19 @@ i{
   padding: 10px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
-.client-type{
-  display: flex;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 20px;    
-  
+.client-type{ 
+    width: 468px;
+    margin: 10px;
+    height: 517px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 .type-c{
   display: flex;
-  width: 270px;
+  width: 330px;
   float: left;
   margin: 10px auto;
   height: 510px;
@@ -148,14 +212,13 @@ i{
   grid-template-columns: repeat(4, 1fr); 
   gap: 20px;    
 }
-.projet-mois{
-  margin-top: auto;
+
   
 
-}
+
 .mois-p{
-  display: flex;
-  width: 530px;
+ 
+  width: 790px;
   float: left;
   margin: 10px auto;
   height: 510px;
@@ -169,36 +232,51 @@ i{
   gap: 20px;    
 }
 .ligne-ville{
-display: flex;
-justify-content: space-between;
+
 }
 .ville{
   display: flex;
-  width: 389px;
-  margin: 10px;
-  height: 279px;
-  background: #fff;
-  text-align: center;
-  border-radius: 10px;
-  padding: 10px;
-  justify-content: space-between;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-}  
-.etat-stock{
-  display: flex;
-  justify-content: space-between;
-}
-.stock{
-  display: flex;
-    width: 580px;
+    width: 429px;
     margin: 10px;
-    height: 289px;
+    height: 279px;
     background: #fff;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
     justify-content: space-between;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.etat-stock{
+  
+  width: 850px;
+  margin: 10px;
+  height: 289px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+ 
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  
+
+}
+.stock{
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.title6{
+    margin-left: -2%;
+    display: flex;
+    align-items: center;
+}
+.icon-right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .l1{
   display: flex;
@@ -221,16 +299,84 @@ justify-content: space-between;
   justify-content: space-between;
   
 }
+.im3{
+  /*background-image:url('http://localhost:4200/assets/images/im3.png') ;*/
+  width: 102%;
+  height: 419px;
+  position: relative;
+  background-size: cover;
+  padding: 5px;
+  top: 42%;
+
+}
+.im4{
+    width: 103%;
+    height: 441px;
+    position: relative;
+    background-size: cover;
+    padding: 10px;
+    top: 20%;
+
+}
+
+.im2{
+  width: 100%;
+  height: 205px;
+  position: relative;
+  background-size: cover;
+  top: 0%;
+
+}
+.im1{
+  width: 100%;
+  height: 249px;
+  position: relative;
+  background-size: cover;
+  
+
+}
 .head1{
   display: flex;
   justify-content: space-between;
   align-content: stretch;
   flex-direction: row;
+  margin-left: 0%;
+}
+.head3{
+    display: flex;
+     height: fit-content;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.title3{
+  margin-left: -2%;
+  display: flex; 
+  align-items: center; 
 }
 
 
+.head4{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.imm{
+  width: 21%;
+  height: 12%;
+}
 .num{
   display: flex;
+  justify-content: space-between;
+}
+.btn3{
+  display: flex;
+  justify-content: space-between;
+
 }
 .num1{
   display: flex;
@@ -263,7 +409,41 @@ font-size: 10px;
 .body{
   padding: 13px;
 }
+.head5{
+  display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.title5{
+  margin-left: -2%;
+  display: flex;
+  align-items: center;
 
+}
+.btn5{
+  display: flex;
+    justify-content: space-between;
+}
+.B1{
+  display: flex;
+}
+.B2{
+  display: flex;
+}
+.B3{
+  display: flex;
+}
+.B4{
+  display: flex;
+}
+.mini-card{
+  display: flex;
+}
+.right-cards{
+  display: flex;
+}
 
 
   
